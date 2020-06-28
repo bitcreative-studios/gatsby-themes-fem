@@ -6,8 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "yarn dev",
-    "dev": "gatsby develope",
+    "start": "yarn run dev",
+    "dev": "gatsby develop",
     "build": "gatsby build"
   },
   "dependencies": {
