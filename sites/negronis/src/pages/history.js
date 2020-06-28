@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const History = () => (
   <>
@@ -32,6 +32,6 @@ const History = () => (
       </small>
     </p>
   </>
-);
+)
 
-export default History;
+export default History

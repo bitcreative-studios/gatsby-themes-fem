@@ -1,0 +1,19 @@
+{
+  "name": "theme-dev",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "George Bockari <bitwhys@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "gatsby develope",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.23.11",
+    "gatsby-theme-docs": "*",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

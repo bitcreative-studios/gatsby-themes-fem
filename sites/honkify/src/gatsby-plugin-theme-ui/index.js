@@ -1,4 +1,4 @@
-import nightOwl from '@theme-ui/prism/presets/night-owl';
+import nightOwl from '@theme-ui/prism/presets/night-owl'
 
 export default {
   colors: {
@@ -128,4 +128,4 @@ export default {
   'prism-highlight': {
     p: 2,
   },
-};
+}

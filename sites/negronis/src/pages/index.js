@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from 'react'
+import { Link } from 'gatsby'
 
 const Index = () => (
   <>
@@ -10,6 +10,6 @@ const Index = () => (
     </p>
     <Link to="/history">Learn the History</Link>
   </>
-);
+)
 
-export default Index;
+export default Index

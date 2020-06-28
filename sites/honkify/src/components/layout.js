@@ -1,11 +1,11 @@
 /** @jsx jsx */
-import { Fragment } from 'react';
-import { jsx } from 'theme-ui';
-import { Link } from 'gatsby';
-import { Global } from '@emotion/core';
-import Helmet from 'react-helmet';
-import Honk from '../images/honk.svg';
-import Honker from './honker';
+import { Fragment } from 'react'
+import { jsx } from 'theme-ui'
+import { Link } from 'gatsby'
+import { Global } from '@emotion/core'
+import Helmet from 'react-helmet'
+import Honk from '../images/honk.svg'
+import Honker from './honker'
 
 const seo = {
   title: 'Honkify.js — the goose is loose!',
@@ -14,7 +14,7 @@ const seo = {
   image:
     'https://res.cloudinary.com/jlengstorf/image/upload/q_auto,f_auto/v1569994857/honkify.jpg',
   url: 'https://honkify.netlify.com/',
-};
+}
 
 const Layout = ({ children }) => (
   <Fragment>
@@ -47,6 +47,6 @@ const Layout = ({ children }) => (
       <a href="https://twitter.com/jlengstorf">Created by Jason Lengstorf</a>
     </footer>
   </Fragment>
-);
+)
 
-export default Layout;
+export default Layout
